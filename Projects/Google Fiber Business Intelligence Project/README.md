@@ -1,4 +1,9 @@
 # Google-Fiber-Summary
+This repository summarises the **Google Fiber Business Intelligence Capstone** from the Google BI course on Coursera. The case focuses on analysing **repeat customer support calls** and building a BI deliverable that helps stakeholders understand **where repeat calls are happening (by market and issue type)** and how performance changes over time.
+
+The project is split into two case studies:
+- **Case 1 - Requirements & Planning:** Define stakeholder needs and success criteria by completing the **Stakeholder Requirements**, **Project Requirements**, and **Strategy** documents (scope, KPIs, constraints, dashboard plan).
+- **Case 2 - Dashboard Development:** Prepare and use the merged Q1 2022 dataset (Markets 1–3) to build an interactive **Tableau dashboard** and publish an executive summary with key findings.
 
 ## Executive Summary
 
