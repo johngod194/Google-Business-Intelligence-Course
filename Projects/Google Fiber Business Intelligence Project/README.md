@@ -3,7 +3,7 @@ This repository summarises the **Google Fiber Business Intelligence Capstone** f
 
 The project is split into two case studies:
 - **Case 1 - Requirements & Planning:** Define stakeholder needs and success criteria by completing the **Stakeholder Requirements**, **Project Requirements**, and **Strategy** documents (scope, KPIs, constraints, dashboard plan).
-- **Case 2 - Dashboard Development:** Prepare and use the merged Q1 2022 dataset (Markets 1–3) to build an interactive **Tableau dashboard** and publish an executive summary with key findings.
+- **Case 2 - Dashboard Development:** Prepare and use the merged Q1 2022 dataset (Markets 1-3) to build an interactive **Tableau dashboard** and publish an executive summary with key findings.
 
 ## Executive Summary
 
