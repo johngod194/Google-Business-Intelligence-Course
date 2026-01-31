@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Fiber Executive Summary</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; background: #f9fafb; }
+    .container { max-width: 1200px; margin: 0 auto; background: white; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .header { background: #2563eb; color: white; padding: 3rem; }
+    .header-content { display: flex; justify-content: space-between; align-items: start; }
+    .header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .header p { font-size: 1.25rem; }
+    .header-info { text-align: right; font-size: 0.875rem; }
+    .section { padding: 3rem; border-bottom: 1px solid #e5e7eb; }
+    .section-alt { background: #f9fafb; }
+    .section h2 { color: #2563eb; font-size: 1.5rem; margin-bottom: 1rem; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.5rem; }
+    .stat-box { background: #dbeafe; padding: 1.5rem; border-radius: 0.5rem; text-align: center; }
+    .stat-value { font-size: 2rem; font-weight: bold; color: #2563eb; }
+    .stat-label { font-size: 0.875rem; color: #4b5563; margin-top: 0.5rem; }
+    .content { color: #374151; line-height: 1.6; margin-bottom: 1rem; }
+    ul { margin-left: 2rem; }
+    li { margin: 0.5rem 0; }
+    .charts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 2rem; }
+    .chart-container { position: relative; }
+    .chart-title { font-weight: 600; color: #1f2937; margin-bottom: 1rem; font-size: 1.125rem; }
+    canvas { max-height: 300px; }
+    .keys { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+    .key-list { list-style: none; margin: 0; }
+    .key-list li { display: flex; align-items: start; margin: 1rem 0; }
+    .key-list li::before { content: '●'; color: #2563eb; margin-right: 0.5rem; font-weight: bold; }
+    .footer { background: #f3f4f6; padding: 2rem; text-align: center; font-size: 0.875rem; color: #6b7280; }
+    .reflection p { margin: 0.75rem 0; }
+    .reflection p::before { content: '●'; font-weight: bold; margin-right: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-content">
+        <div>
+          <h1>Google Fiber Repeated Calls Project</h1>
+          <p>Executive Summary</p>
+        </div>
+        <div class="header-info">
+          <p>BI Analyst: Joao Ornelas</p>
+          <p>Client: Emma Santiago</p>
+          <p>Date: Q1 2024</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overview -->
+    <div class="section">
+      <h2>Overview</h2>
+      <p class="content">
+        This project analyses customer service call patterns to reduce repeat call volume and improve customer satisfaction across Google Fiber's three market cities.
+      </p>
+      <div class="stats">
+        <div class="stat-box">
+          <div class="stat-value">23.8%</div>
+          <div class="stat-label">Average Repeat Call Rate</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value">85K+</div>
+          <div class="stat-label">Total Calls Analysed (Q1 2022)</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value">3</div>
+          <div class="stat-label">Market Cities Tracked</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Problem -->
+    <div class="section section-alt">
+      <h2>The Problem</h2>
+      <p class="content">
+        Customer service teams need visibility into repeat caller patterns to improve operational efficiency and customer satisfaction.
+      </p>
+      <ul class="content">
+        <li>How often are customers calling repeatedly about the same issues?</li>
+        <li>Which problem types generate the most repeat calls?</li>
+        <li>Are there differences in repeat call patterns across market cities?</li>
+      </ul>
+    </div>
+
+    <!-- The Solution -->
+    <div class="section">
+      <h2>The Solution</h2>
+      <p class="content">
+       An interactive dashboard on 
+<a href="https://public.tableau.com/app/profile/jo.o.ornelas/viz/GoogleFiberRepeatCallsDashboard_17652315144010/RepeatCallsReport" target="_blank" rel="noopener noreferrer">
+  Tableau
+</a>
+providing stakeholders with comprehensive insights about repeat caller volumes across different markets and problem types, with time-based trend analysis.
+
+      </p>
+    </div>
+
+    <!-- Results Summary -->
+    <div class="section section-alt">
+      <h2>Results Summary</h2>
+      
+      <div class="chart-container" style="margin-bottom: 2rem;">
+        <h3 class="chart-title">Volume of Repeated Calls and Total Calls</h3>
+        <canvas id="areaChart"></canvas>
+      </div>
+
+      <div class="charts">
+        <div class="chart-container">
+          <h3 class="chart-title">Repeat Call Rate by Market</h3>
+          <canvas id="barChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3 class="chart-title">Repeat Calls by Problem Type</h3>
+          <canvas id="pieChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Keys to Success -->
+    <div class="section">
+      <h2>Keys to Success</h2>
+      <div class="keys">
+        <ul class="key-list">
+          <li>Dashboard enables real-time tracking of repeat caller patterns across all markets</li>
+          <li>Data accessible to all stakeholders for collaborative problem-solving</li>
+          <li>Weekly, monthly, and quarterly views support both tactical and strategic planning</li>
+        </ul>
+        <ul class="key-list">
+          <li>Problem type analysis identifies systemic issues requiring intervention</li>
+          <li>Market-specific insights enable targeted improvement strategies</li>
+          <li>Anonymised data ensures privacy compliance while maintaining analytical value</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Reflections -->
+    <div class="section">
+      <h2>Reflections / Next Steps</h2>
+      <div class="reflection content">
+        <p>Internet and WiFi issues account for 50.66% of repeat calls, representing the largest opportunity for improvement through proactive customer education and technical resources.</p>
+        <p>Market 1 shows the highest repeat call rate at 62.49%, indicating significant need for targeted intervention and root cause analysis.</p>
+        <p>Week 13 showed peak call volume (8,399 calls) with proportionally higher repeat calls (1,973), warranting investigation into seasonal factors or service disruptions.</p>
+        <p>Ongoing dashboard monitoring will track effectiveness of customer communication initiatives aimed at reducing repeat contacts.</p>
+        <p>Future enhancements could include predictive modeling to identify customers at risk of becoming repeat callers and development of self-service tools for common Internet/WiFi issues.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Dashboard Development Timeline: 6 Weeks | Data Span: 12+ Months</p>
+      <p style="margin-top: 0.5rem;">Stakeholders: Emma Santiago, Keith Portone, Minna Rah, Ian Ortega, Sylvie Essa</p>
+    </div>
+  </div>
+
+  <script>
+    // Area Chart
+    const areaCtx = document.getElementById('areaChart').getContext('2d');
+    new Chart(areaCtx, {
+      type: 'line',
+      data: {
+        labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14'],
+        datasets: [{
+          label: 'Total Calls',
+          data: [1009, 6651, 6164, 5899, 6594, 5950, 6478, 6870, 6279, 7066, 6645, 6363, 8399, 4812],
+          backgroundColor: 'rgba(100, 168, 209, 0.5)',
+          borderColor: 'rgba(100, 168, 209, 1)',
+          borderWidth: 2,
+          fill: true
+        }, {
+          label: 'Repeat Calls',
+          data: [227, 1504, 1231, 1352, 1653, 1478, 1736, 1696, 1501, 1724, 1702, 1483, 1973, 980],
+          backgroundColor: 'rgba(232, 151, 100, 0.5)',
+          borderColor: 'rgba(232, 151, 100, 1)',
+          borderWidth: 2,
+          fill: true
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: { legend: { position: 'top' } },
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+
+    // Bar Chart
+    const barCtx = document.getElementById('barChart').getContext('2d');
+    new Chart(barCtx, {
+      type: 'bar',
+      data: {
+        labels: ['Market 1', 'Market 2', 'Market 3'],
+        datasets: [{
+          label: 'Repeat Rate %',
+          data: [62.49, 3.89, 33.63],
+          backgroundColor: '#1e40af',
+          borderWidth: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: { legend: { display: false } },
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+
+    // Pie Chart with gradient colors
+    const pieCtx = document.getElementById('pieChart').getContext('2d');
+    new Chart(pieCtx, {
+      type: 'doughnut',
+      data: {
+        labels: ['Internet & WiFi', 'Technician Troubleshooting', 'Account Management', 'Scheduling', 'Construction'],
+        datasets: [{
+          data: [50.66, 29.58, 11.86, 7.26, 0.60],
+          backgroundColor: [
+            '#0ea5e9',
+            '#f97316',
+            '#eab308',
+            '#8b5cf6',
+            '#10b981'
+          ],
+          borderWidth: 3,
+          borderColor: '#ffffff'
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          legend: {
+            position: 'right',
+            labels: {
+              padding: 15,
+              font: { size: 13, weight: '500' },
+              usePointStyle: true,
+              pointStyle: 'circle'
+            }
+          },
+          tooltip: {
+            callbacks: {
+              label: function(context) {
+                const calls = [5000, 3875, 2750, 1875, 150];
+                return context.label + ': ' + context.parsed + '% (' + calls[context.dataIndex].toLocaleString() + ' calls)';
+              }
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
