@@ -18,4 +18,4 @@ The project is split into three case studies:
 ### Case 2 & 3 - Dataset used and Dashboard Visualisation
 - Data cleaning and Data Processing was done on Big Query using SQL, the code follow as the [link](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/d28e0a12259b27efc47bd5bd73012de96baa93af/Projects/Cyclistic%20Business%20Intelligence%20Project/SQL%20code)
 - Target DataSet 'data_cleaned_summer_2' was created [link](https://drive.google.com/file/d/1eGTNWgB1fS3vFaey03yvUnsVVY6u1MN4/view?usp=sharing)
-- [Tableau Cyclistic Dashboard](https://public.tableau.com/app/profile/jo.o.ornelas/viz/CyclisticDashboard2020/CyclisticExemplar#2)
+- Final [Tableau Cyclistic Dashboard 2020](https://public.tableau.com/app/profile/jo.o.ornelas/viz/CyclisticDashboard2020/CyclisticExemplar#2) was created
