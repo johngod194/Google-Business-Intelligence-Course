@@ -9,11 +9,11 @@ Core tools and methods covered include SQL and BigQuery for data preparation and
 
 ### [Projects](https://github.com/johngod194/Google-Business-Intelligence-Course/tree/a36b70a6b2e2edb033955db5c86132e76e78f1bf/Projects)
 
-[Cyclistic Business Intelligence Project](https://github.com/johngod194/Google-Business-Intelligence-Course/tree/45e09c5f49daa81c5c4c9415cbebc2717fa45ac0/Projects/Cyclistic%20Business%20Intelligence%20Project)  
-BI case focused on understanding bike usage patterns, demand by station location, and seasonality. Includes requirements documents, data prep in BigQuery, and a Tableau dashboard.
-
 [Google Fiber Business Intelligence Project](https://github.com/johngod194/Google-Business-Intelligence-Course/tree/45e09c5f49daa81c5c4c9415cbebc2717fa45ac0/Projects/Google%20Fiber%20Business%20Intelligence%20Project)  
 BI capstone focused on repeat customer support calls. Includes stakeholder, project, and strategy requirements, target table creation, a Tableau dashboard, and an executive summary.
+
+[Cyclistic Business Intelligence Project](https://github.com/johngod194/Google-Business-Intelligence-Course/tree/45e09c5f49daa81c5c4c9415cbebc2717fa45ac0/Projects/Cyclistic%20Business%20Intelligence%20Project)  
+BI case focused on understanding bike usage patterns, demand by station location, and seasonality. Includes requirements documents, data prep in BigQuery, and a Tableau dashboard.
 
 ### Exercises
 
