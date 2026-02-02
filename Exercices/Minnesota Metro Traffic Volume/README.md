@@ -4,14 +4,17 @@ This project summarises a business intelligence visualisation scenario using tra
 
 
 The activities in this exercise follows as per the [Activity Overview:](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/f2420ccca43b32a771e2dabf3083f0e832a47720/Exercices/Minnesota%20Metro%20Traffic%20Volume/Activity%20Overview.pdf)
-**Activities:**
-1- Collect, clean, and transform the dataset into an analysis-ready table, focusing on key fields such as `date_time`, `traffic_volume`, `weather_main`, and `holiday` (plus any derived fields needed for time-grain analysis).
-2- Build the required visuals in Tableau to address stakeholder needs:  
+
+###Activities
+
+- Collect, clean, and transform the dataset into an analysis-ready table, focusing on key fields such as `date_time`, `traffic_volume`, `weather_main`, and `holiday` (plus any derived fields needed for time-grain analysis).
+- Build the required visuals in Tableau to address stakeholder needs:  
   a) traffic volume across multiple time scales (year → month → week → day → hour),  
   b) volume by weather conditions, and  
   c) volume on holidays (including custom fields/measures if needed). 
-3- Organise the charts into a stakeholder-friendly dashboard (supporting comparisons across time and conditions)
-4- Produce a slide deck summarising key findings from the Minnesota Metro Traffic Interstate 2012-2018 analysis. 
+- Organise the charts into a stakeholder-friendly dashboard (supporting comparisons across time and conditions)
+- Produce a slide deck summarising key findings from the Minnesota Metro Traffic Interstate 2012-2018 analysis.
+
 
 ### Links
 - [Activity Overview (PDF)] (https://github.com/johngod194/Google-Business-Intelligence-Course/blob/f2420ccca43b32a771e2dabf3083f0e832a47720/Exercices/Minnesota%20Metro%20Traffic%20Volume/Activity%20Overview.pdf)  
