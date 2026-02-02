@@ -5,7 +5,7 @@ This project summarises a business intelligence visualisation scenario using tra
 
 The activities in this exercise follows as per the [Activity Overview:](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/f2420ccca43b32a771e2dabf3083f0e832a47720/Exercices/Minnesota%20Metro%20Traffic%20Volume/Activity%20Overview.pdf)
 
-###Activities
+### Activities
 
 - Collect, clean, and transform the dataset into an analysis-ready table, focusing on key fields such as `date_time`, `traffic_volume`, `weather_main`, and `holiday` (plus any derived fields needed for time-grain analysis).
 - Build the required visuals in Tableau to address stakeholder needs:  
