@@ -17,7 +17,7 @@ The activities in this exercise follows as per the [Activity Overview:](https://
 
 
 ### Links
-- [Activity Overview (PDF)] (https://github.com/johngod194/Google-Business-Intelligence-Course/blob/f2420ccca43b32a771e2dabf3083f0e832a47720/Exercices/Minnesota%20Metro%20Traffic%20Volume/Activity%20Overview.pdf)  
-- [Minnesota Dataset (CSV)] (https://d3c33hcgiwev3.cloudfront.net/RIC_h8iWSRKAv4fIlgkSxA_c3d2e0d2a71d47faae8796ddef3ddef1_Metro_Interstate_Traffic_Volume.csv)  
+- [Activity Overview (PDF)](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/f2420ccca43b32a771e2dabf3083f0e832a47720/Exercices/Minnesota%20Metro%20Traffic%20Volume/Activity%20Overview.pdf)  
+- [Minnesota Dataset (CSV)](https://d3c33hcgiwev3.cloudfront.net/RIC_h8iWSRKAv4fIlgkSxA_c3d2e0d2a71d47faae8796ddef3ddef1_Metro_Interstate_Traffic_Volume.csv)  
 - Tableau [Minnesota Dashboard](https://public.tableau.com/authoring/MinnesotaMetroTrafficVolume-2012to2018/FinalDashboard#1)
 - Minnesota Metro Traffic Volume [Presentation](https://docs.google.com/presentation/d/1XyMGqboem4mUD5IhT-gHioqwFhyXXFqU/edit?usp=sharing&ouid=115065162497956868521&rtpof=true&sd=true)
