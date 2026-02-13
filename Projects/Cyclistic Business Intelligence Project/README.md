@@ -11,11 +11,11 @@ The project is split into three case studies:
 
 
 ### Case 1 - Project Documents (pdf) - Links
-- [Stakeholder Requirements](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/494b2c25078322e8903774d554977f32386c1da2/Projects/Cyclistic%20Business%20Intelligence%20Project/Case%20Scenario%20Overview/Cyclistic%20-%20Case%201%20Overview.pdf)
-- [Project Requirements](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/494b2c25078322e8903774d554977f32386c1da2/Projects/Cyclistic%20Business%20Intelligence%20Project/Case%20Scenario%20Overview/Cyclistic%20-%20Case%202%20Overview.pdf) 
-- [Strategy overview](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/494b2c25078322e8903774d554977f32386c1da2/Projects/Cyclistic%20Business%20Intelligence%20Project/Case%20Scenario%20Overview/Cyclistic%20-%20Case%203%20Overview.pdf)
+- [Stakeholder Requirements](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/main/Projects/Cyclistic%20Business%20Intelligence%20Project/Documents%20Required/Project%20Requirements%20Document%20-%20Cyclistic%20.pdf)
+- [Project Requirements](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/main/Projects/Cyclistic%20Business%20Intelligence%20Project/Documents%20Required/Project%20Requirements%20Document%20-%20Cyclistic%20.pdf) 
+- [Strategy overview](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/main/Projects/Cyclistic%20Business%20Intelligence%20Project/Documents%20Required/Strategy%20Document%20-%20Cyclistic.pdf)
 
 ### Case 2 & 3 - Dataset used and Dashboard Visualisation
-- Data cleaning and Data Processing was done on Big Query using SQL, the code follow as the [link](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/d28e0a12259b27efc47bd5bd73012de96baa93af/Projects/Cyclistic%20Business%20Intelligence%20Project/SQL%20code)
+- Data cleaning and Data Processing were done on Big Query using SQL. The code follows as the [link](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/10845f37a3e695fdd574d3d9035350e876834a60/Projects/Cyclistic%20Business%20Intelligence%20Project/SQL%20code)
 - Target DataSet 'data_cleaned_summer_2' was created [link](https://drive.google.com/file/d/1eGTNWgB1fS3vFaey03yvUnsVVY6u1MN4/view?usp=sharing)
 - Final [Tableau Cyclistic Dashboard 2020](https://public.tableau.com/app/profile/jo.o.ornelas/viz/CyclisticDashboard2020/CyclisticExemplar#2) was created
