@@ -6,13 +6,7 @@ The project is split into three case studies (Links highlighted):
 - [**Case 2 - Data Preparation and Data Processing:**](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/20e8250cb036f2ea7eb7aad6782508843ba9d593/Projects/Google%20Fiber%20Business%20Intelligence%20Project/Google%20Fiber%20-%20Case%202%20Overview.pdf) Prepare and merged Q1 2022 datasets (Markets 1-3) to create a target table.
 - [**Case 3 - Dashboard and Executive Summary:**](https://github.com/johngod194/Google-Business-Intelligence-Course/blob/5d7ecd6545a9f5402d7a7cf5bd8635b95f768524/Projects/Google%20Fiber%20Business%20Intelligence%20Project/Google%20Fiber%20-%20Case%203%20Overview.pdf) Design and build the **Tableau dashboard** to visualise repeat call trends and breakdowns, then publish an **executive summary** that communicates the key findings and takeaways to stakeholders.
 
-## Executive Summary
-
-View the interactive executive summary:
-
-- Live (GitHub Page):
-https://johngod194.github.io/Google-Fiber-Business-Intelligence-Project/
-
+## The Project
 ### Case 1 - Project Documents (pdf) - Links
 - [Stakeholder Requirements](https://github.com/johngod194/Google-Fiber-Business-Intelligence-Project/blob/317e2aed5ef243742a5d129138bab91b983414ea/Documents%20Requirements/Google%20Fiber%201%20-%20Stakeholder%20Requirements%20Document.pdf)
 - [Project Requirements](https://github.com/johngod194/Google-Fiber-Business-Intelligence-Project/blob/317e2aed5ef243742a5d129138bab91b983414ea/Documents%20Requirements/Google%20Fiber%202%20-%20Project%20Requirements%20Document.pdf) 
@@ -21,3 +15,10 @@ https://johngod194.github.io/Google-Fiber-Business-Intelligence-Project/
 ### Case 2 & 3 - Dataset used and Dashboard Visualisation
 - Merged Dataset Q1 2022 (Market 1,2 and 3) [link](https://docs.google.com/spreadsheets/d/1S-t30r7lnDkdH-6KIhc5CETzzGmqcly9aXgkxjgX5Zg/edit?usp=sharing)
 - [Tableau Google Fiber Dashboard Q1 2022](https://public.tableau.com/app/profile/jo.o.ornelas/viz/GoogleFiberRepeatCallsDashboard_17652315144010/RepeatCallsReport)
+
+## Executive Summary
+
+View the interactive executive summary:
+
+- Live (GitHub Page):
+https://johngod194.github.io/Google-Fiber-Business-Intelligence-Project/
